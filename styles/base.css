@@ -10,9 +10,40 @@ nav {
     background-color: #bbb;
 }
 
+
 .parent {
     margin: 1rem 2vw;
 }
+
+.intro {
+    border: 1px solid blue;
+    background-color: rgb(5, 84, 3);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 1rem 0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro img {
+    margin-right: 210px;
+}
+
+.intro span {
+
+    text-align: center;
+    text-transform: uppercase;
+    color: #4CAF50;
+    text-align: center;
+    /* padding: 10px; */
+    /* display: block; */
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+
 
 .parent section {
     border: 1px solid #415541;
