@@ -1,0 +1,12 @@
+@media only screen and (min-width: 33rem) {
+
+    .parent {
+        display: grid;
+        grid-template-columns: 1fr 1 fr;
+        column-gap: 10px;
+    }
+
+    .parent section {
+        box-shadow: 1px 1px 10px black;
+    }
+}

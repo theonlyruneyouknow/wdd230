@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+footer,
+nav {
+    background-color: #bbb;
+}
+
+.parent {
+    margin: 1rem 2vw;
+}
+
+.parent section {
+    border: 1px solid #415541;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 1rem 0;
+}
+
+.parent span {
+    background-color: forestgreen;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: .75rem 0;
+}
+
+.parent p {
+    padding: 10px;
+
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+nav {
+    background-color: seagreen;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav a {
+    display: block;
+    color: teal;
+    text-align: center;
+    padding: .5rem;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, .2);
+}
+
+nav .active {
+    background-color: rgba(0, 0, 0, .2);
+}
