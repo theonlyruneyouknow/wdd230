@@ -63,6 +63,19 @@ nav {
     grid-template-columns: 2fr 1fr;
 }
 
+.events span {
+    font-weight: 400;
+    /* text-align: center; */
+    text-transform: capitalize;
+    font-size: 2rem;
+    color: #4CAF50;
+    /* text-align: center; */
+    /* padding: 10px; */
+    /* display: block; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 
 
 .parent section {
