@@ -107,7 +107,7 @@ nav ul {
 
 nav a {
     display: block;
-    /* color: teal; */
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: .5rem;
     text-decoration: none;
