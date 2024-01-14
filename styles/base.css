@@ -43,6 +43,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 .intro img {
@@ -50,7 +51,7 @@ nav {
 }
 
 .intro span {
-
+    font-weight: 400;
     /* text-align: center; */
     text-transform: capitalize;
     font-size: 2rem;
@@ -106,7 +107,7 @@ nav ul {
 
 nav a {
     display: block;
-    color: teal;
+    /* color: teal; */
     text-align: center;
     padding: .5rem;
     text-decoration: none;
@@ -115,6 +116,7 @@ nav a {
 nav a:hover {
     background-color: rgba(255, 255, 255, .2);
     font-size: 2rem;
+    font-weight: 400;
 }
 
 nav .active {
