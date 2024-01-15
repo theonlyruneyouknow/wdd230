@@ -73,7 +73,7 @@ nav {
     /* padding: 10px; */
     /* display: block; */
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
 }
 
 
