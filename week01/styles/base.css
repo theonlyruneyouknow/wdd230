@@ -35,7 +35,7 @@ nav {
 
 .intro {
     border: 1px solid blue;
-    background-color: rgb(5, 84, 3);
+    background-color: rgb(193, 196, 42);
     border-radius: 10px;
     overflow: hidden;
     margin: 1rem 0;
@@ -52,7 +52,7 @@ nav {
 
 footer {
     font-weight: 400;
-    color: #4CAF50;
+    color: #3b09af;
     text-align: center;
     padding: 10px;
 }
