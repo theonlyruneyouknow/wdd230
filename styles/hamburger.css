@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: Roboto, sans - serif;
+    font-family: Roboto, sans-serif;
 }
 
 /* Mobile View ***************/
@@ -70,7 +70,7 @@ navigation a:active {
 }
 
 /* Media Query for wider than mobile viewports. Breakpoint should be based upon the design and content and use em units to be relative to the user's font size versus fixed with pixels.*/
-@media only screen and(min-width: 40em) {
+@media only screen and (min-width: 40em) {
     .navigation {
         display: flex;
     }
