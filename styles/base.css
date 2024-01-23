@@ -57,6 +57,30 @@ footer {
     padding: 10px;
 }
 
+#menu {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: .5rem .75rem;
+    background-color: #eee;
+    color: #000;
+}
+
+#menu::before {
+    content: "≡";
+    float: right;
+}
+
+.active {
+    background-color: white;
+}
+
+nav {
+    background-color: tomato;
+
+}
+
 .intro span {
     font-weight: 400;
     /* text-align: center; */
