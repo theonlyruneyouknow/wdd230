@@ -28,6 +28,10 @@
 
 }
 
+iframe {
+    width: 100%;
+    margin: 2vw;
+}
 
 body {
     font-family: 'Roboto', sans-serif;
