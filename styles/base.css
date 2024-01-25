@@ -4,6 +4,31 @@
     box-sizing: border-box;
 }
 
+.hero {
+    position: relative;
+
+}
+
+.hero img {
+    height: auto;
+    width: 100%;
+    display: block;
+}
+
+.hero span {
+    position: absolute;
+    top: 30%;
+    right: 60%;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: black;
+    opacity: 75%;
+
+}
+
+
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
