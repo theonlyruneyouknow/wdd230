@@ -31,6 +31,8 @@
 iframe {
     width: 100%;
     margin: 2vw;
+    padding-left: 1rem;
+    padding-right: 3rem;
 }
 
 body {
