@@ -157,3 +157,82 @@ footer {
     display: table;
     clear: both;
 }
+
+body {
+    font-family: Roboto, Arial, sans-serif;
+    margin: 1rem;
+}
+
+h1 {
+    font-size: 1.75rem;
+    color: navy;
+    border-bottom: 1px solid #bbb;
+}
+
+hr {
+    margin-bottom: 40px;
+}
+
+label {
+    display: block;
+    font-weight: 700;
+}
+
+input[type=text],
+input[type=range],
+input[type=radio] {
+    margin: 1rem;
+    padding: 0.5em;
+}
+
+#alpha:focus,
+#fruit:focus {
+    background-color: #eee;
+}
+
+#alpha:valid,
+#fruit:valid {
+    background-color: #bed;
+}
+
+#alpha:invalid,
+#alpha:invalid {
+    background-color: #fff0f3;
+    border: 1px solid red;
+}
+
+#alpha:invalid::before {
+    content: "❌";
+}
+
+
+#r {
+    width: 180px;
+    margin-bottom: 0;
+}
+
+#rangevalue {
+    font-size: 2rem;
+    color: navy;
+}
+
+#rangevalues {
+    display: flex;
+    margin: 0 0 0 25px;
+    width: 170px;
+}
+
+#rangevalues option {
+    flex: 1 1 auto;
+}
+
+/* /* /* 
+/* other */
+.inline {
+    display: inline;
+}
+
+.ref {
+    font-size: 13px;
+    margin-top: 1rem;
+}
