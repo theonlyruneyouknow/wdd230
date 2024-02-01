@@ -52,13 +52,21 @@
         <form method="get" action="thankyou.html">
             <fieldset>
                 <legend>Applicatant Information</legend>
-                <label class="top" id="username">Username *<input type="text" name="username" required></label>
+                <label class="top" id="fname">First Name *<input type="text" name="lname" required></label>
+                <label class="top" id="lname">Last Name *<input type="text" name="fname" required></label>
+                <label class="top" id="titlepos">Title/Position *<input type="text" name="titlepos" required></label>
+                <label class="top" id="email">Email *<input type="email" name="email" placeholder="myemail@gmail.com"
+                    required></label>
+                    <label class="top">Phone<input type="tel" name="phone" placeholder="5551236789"></label>
+                
+                    <label class="top" id="org">Business / Organisation *<input type="text" name="org" required></label>
+<label class="top" id="membershipLevel">Membership Level *<input type="email" name="membershipLevel" 
+                        required></label>
                 <label class="top" id="password">Password *<input type="password" name="password"
                         pattern="[a-zA-Z 0-9]{3,}" required></label>
                 <label class="top" id="password2">Password Confirmation *<input type="password" name="password2"
                         required></label>
-                <label class="top" id="email">Email *<input type="email" name="email" placeholder="myemail@gmail.com"
-                        required></label>
+                
                 <div id="rangevalue">0</div>
                 <input type="range" id="r" name="r" min="1" max="10" value="0" step="1" list="rangevalues">
                 <datalist id="rangevalues">
