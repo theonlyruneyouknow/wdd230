@@ -219,7 +219,7 @@ input[type=radio] {
 #rangevalues {
     display: flex;
     margin: 0 0 0 25px;
-    width: 170px;
+    width: 175px;
 }
 
 #rangevalues option {
