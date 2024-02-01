@@ -46,44 +46,38 @@
             <span>Bringing Coburg Together</span>
         </div>
 
-        <header class="intro">
-            <img src="images/RuneLarsenProfile.jpg" alt="Rune Larsen Profile" width="75" height="100">
-            <span>Rune Larsen</span>
-        </header>
-        <a id="menu" href="#"></a>
-        <nav>
-            <ul class="navigation">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="chamber/index.html">Chamber</a></li>
-                <!-- <li><a href="week01/chamber-site-plan.html">Chamber site</a></li> -->
-                <!-- <li class="active"><a href="#">Site Plan</a></li> -->
-                <!-- <li><a href="/week04/form/index.html">Form</a></li> -->
-                <li class="active"><a href="form.html">Form</a></li>
-                <!-- <li><a href="siteplan.html">Site Plan</a></li> -->
-                <!-- <li><a href="./week04/form/index.html">Form</a></li> -->
-            </ul>
-        </nav>
-        <h1>Your local Chamber of Commerce- Your source for connections to the local community.</h1>
-        <div class="parent">
-            <section>
-                <span class="child">Card title</span>
-                <p>Here is where the elements go </p>
+ 
+        <h1>Website rating</h1>
+        <form method="get" action="record.html">
+            <fieldset>
+                <legend>Applicatant Information</legend>
+                <label class="top" id="username">Username *<input type="text" name="username" required></label>
+                <label class="top" id="password">Password *<input type="password" name="password"
+                        pattern="[a-zA-Z 0-9]{3,}" required></label>
+                <label class="top" id="password2">Password Confirmation *<input type="password" name="password2"
+                        required></label>
+                <label class="top" id="email">Email *<input type="email" name="email" placeholder="myemail@gmail.com"
+                        required></label>
+                <div id="rangevalue">0</div>
+                <input type="range" id="r" name="r" min="1" max="10" value="0" step="1" list="rangevalues">
+                <datalist id="rangevalues">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </datalist>
+                <!-- <label class="top">Webpage<input type="url" name="url" placeholder="http://"></label> -->
+            </fieldset>
 
-            </section>
-            <section>
-                <span class="child">Card title</span>
-                <p>Here is where the elements go </p>
+            <input type="submit" value="Propose my course" class="submitBtn">
+        </form>
 
-            </section>
-            <section>
-                <!-- <section class="card"> -->
-
-                <h2 class="child">Learning Activities</h2>
-                <ul>
-                    <li><a href=""></a></li>
-                </ul>
-            </section>
-        </div>
     </main>
     <footer>
         <p id="yearnow"></p>
