@@ -34,8 +34,8 @@ header h2 {
     font-weight: normal;
 }
 
-/*----------- NAVIGATION --------------*/
-nav {
+/* ----------- NAVIGATION -------------- */
+/* nav {
     background-color: #666;
 }
 
@@ -80,6 +80,8 @@ main {
     padding: 0 2%;
     min-height: 20rem;
 }
+
+*/
 
 /*----------- FORM --------------*/
 form fieldset {
