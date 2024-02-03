@@ -1,0 +1,33 @@
+{
+    "familyName": "Larsen",
+    "move-in-date": "2019-07-01",
+    "householdSize": 5,
+    "bishopricVisit": "Yes",
+    "householdMembers": [
+        {
+            "name": "Rune Trygve Larsen",
+            "gender": "Male",
+            "birthdate": "1971-01-14"
+        },
+        {
+            "name": "LeaAnne Webb Larsen",
+            "gender": "Female",
+            "birthdate": "1970-10-26"
+        },
+        {
+            "name": "Samuel Jared Webb Larsen",
+            "gender": "Male",
+            "birthdate": "2001-03-07"
+        },
+        {
+            "name": "Katelynn Riley Larsen",
+            "gender": "Female",
+            "birthdate": "2003-08-19"
+        },
+        {
+            "name": "Lillian McKenzie Larsen",
+            "gender": "Female",
+            "birthdate": "2006-01-16"
+        }
+    ]
+}
