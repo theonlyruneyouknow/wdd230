@@ -10,6 +10,7 @@ const cards = document.querySelector('#cards');
 const displayProphets = (prophets) => {
     prophets.forEach((prophet) => {
         // Create elements to add to the div.cards element
+
         let card = document.createElement('section');
         let fullName = document.createElement('h2'); // fill in the blank
         let birthdate = document.createElement('p'); // fill in the blank
