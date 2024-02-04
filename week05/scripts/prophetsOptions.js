@@ -1,5 +1,5 @@
 const url =
-    "https://brotherblazzard.github.io/canvas-content/latter-day-prophets.json";
+    "scripts/stretch.json";
 
 const getProphets = async (filter = "all") => {
     let prophets = await jsonFetch(url);
