@@ -8,8 +8,11 @@ const getProphets = async (filter = "all") => {
         case "idaho":
             prophets = prophets.filter((prophet) => prophet.birthplace === "Idaho");
             break;
-        case "nonus":
+        case "us-born":
             prophets = prophets.filter((prophet) => prophet.birthplace !== "England");
+            break;
+        case "nonus":
+            prophets = prophets.filter((prophet) => prophet.birthplace === "England");
             break;
         case "ten":
             prophets = prophets.filter((prophet) => prophet.length >= 15);
@@ -19,6 +22,13 @@ const getProphets = async (filter = "all") => {
             break;
         case "childl":
             prophets = prophets.filter((prophet) => prophet.numofchildren >= 10);
+            break;
+
+        case "Yes":
+            prophets = prophets.filter((prophet) => prophet.glasses === "Yes");
+            break;
+        case "No":
+            prophets = prophets.filter((prophet) => prophet.glasses === "No");
             break;
         case "old":
             prophets = prophets.filter(
@@ -53,6 +63,7 @@ const displayProphets = (prophets) => {
         let length = document.createElement("p");
         let place = document.createElement("p");
         let num = document.createElement("p");
+        let glasses = document.createElement("p");
         let portrait = document.createElement("img");
 
         h2.textContent = `${prophet.name} ${prophet.lastname}`;
@@ -65,6 +76,7 @@ const displayProphets = (prophets) => {
             prophet.birthdate,
             prophet.death
         )}`;
+        glasses.innerHTML = `<span class="label">Glasses:</span> ${prophet.glasses}`;
 
         portrait.setAttribute("src", prophet.imageurl);
         portrait.setAttribute(
@@ -81,10 +93,14 @@ const displayProphets = (prophets) => {
         stats.appendChild(length);
         stats.appendChild(death);
         stats.appendChild(ageatdeath);
+        stats.appendChild(glasses);
 
         card.appendChild(h2);
         card.appendChild(stats);
+
+        // card.appendChild(glasses);
         card.appendChild(portrait);
+
 
         cards.appendChild(card);
     });
@@ -101,8 +117,20 @@ document.querySelector("#idaho").addEventListener("click", () => {
     getProphets("idaho");
 });
 
+document.querySelector("#glasses").addEventListener("click", () => {
+    getProphets("Yes");
+});
+
+document.querySelector("#noglasses").addEventListener("click", () => {
+    getProphets("No");
+});
+
 document.querySelector("#nonus").addEventListener("click", () => {
     getProphets("nonus");
+});
+
+document.querySelector("#us-born").addEventListener("click", () => {
+    getProphets("us-born");
 });
 
 document.querySelector("#ten").addEventListener("click", () => {
