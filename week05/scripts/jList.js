@@ -1,4 +1,4 @@
-const url = 'https://theonlyruneyouknow.github.io/wwd230/data/jList.json';
+const linksURL = 'https://theonlyruneyouknow.github.io/wwd230/data/jList.json';
 
 const cards = document.querySelector('#cards');
 
@@ -53,12 +53,12 @@ const displayProphets = (prophets) => {
 //   }
 //   getProphetData();
 
-async function getProphetData() {
-    const response = await fetch(url);
-    const data = await response.json();
-    console.table(data.prophets); // temporary testing of data retreival
-    displayProphets(data.prophets);
-}
+// async function getProphetData() {
+//     const response = await fetch(url);
+//     const data = await response.json();
+//     console.table(data.prophets); // temporary testing of data retreival
+//     displayProphets(data.prophets);
+// }
 
 async function getLinks() {
     const response = await fetch(linksURL);
