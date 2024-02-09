@@ -1,4 +1,6 @@
 {
+    "weeks": [
+        {
     "familyName": "Larsen",
     "move-in-date": "2019-07-01",
     "householdSize": 5,
@@ -29,5 +31,7 @@
             "gender": "Female",
             "birthdate": "2006-01-16"
         }
+    ]
+}
     ]
 }
