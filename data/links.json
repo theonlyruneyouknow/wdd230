@@ -21,7 +21,7 @@
             "week": "Week 2",
             "links": [
                 {
-                    "url": "week02/holygrail.html",
+                    "url": "week02/design.html",
                     "title": "Design"
                 },
                 {
@@ -29,7 +29,28 @@
                     "title": "Hamburger Menu"
                 },
                 {
-                    "url": "week02/media-query.html",
+                    "url": "https://codepen.io/theonlyruneyouknow/pen/PoLpxRK",
+                    "title": "CodePen"
+                },
+                {
+                    "url": "week02/bom.html",
+                    "title": "Book of Mormon 3"
+                }
+            ]
+        },
+        {
+            "week": "Week 3",
+            "links": [
+                {
+                    "url": "week03/images/landscape.webp",
+                    "title": "WebP"
+                },
+                {
+                    "url": "week03/hamburger.html",
+                    "title": "Hamburger"
+                },
+                {
+                    "url": "week03/lazyload.html",
                     "title": "Lazy Loading"
                 },
                 {
@@ -39,28 +60,23 @@
             ]
         },
         {
-            "week": "Week 3",
-            "links": [
-                {
-                    "url": "week03/holygrail.html",
-                    "title": "WebP"
-                },
-                {
-                    "url": "week03/media-query.html",
-                    "title": "mQueries"
-                }
-            ]
-        },
-        {
             "week": "Week 4",
             "links": [
                 {
-                    "url": "week04/holygrail.html",
-                    "title": "HG Layout"
+                    "url": "https://codepen.io/theonlyruneyouknow/pen/zYbpOMG",
+                    "title": "CodePen Psudo Classes"
                 },
                 {
-                    "url": "week04/media-query.html",
-                    "title": "mQueries"
+                    "url": "week04/images/combinatorExercises.PNG",
+                    "title": "Combinator Exercises"
+                },
+                {
+                    "url": "week04/tablebuild.html",
+                    "title": "Tablebuild HTML"
+                },
+                {
+                    "url": "week04/bom.html",
+                    "title": "Book of Mormon"
                 }
             ]
         },
@@ -68,16 +84,20 @@
             "week": "Week 5",
             "links": [
                 {
-                    "url": "week05/holygrail.html",
+                    "url": "https://codepen.io/theonlyruneyouknow/pen/dyrevpV",
                     "title": "CodePen Psudo Elements"
                 },
                 {
-                    "url": "week05/media-query.html",
-                    "title": "New Ward Members"
+                    "url": "week05/new-ward-members.json",
+                    "title": "JSON"
                 },
                 {
-                    "url": "week05/media-query.html",
+                    "url": "week05/prophets.html",
                     "title": "Prophets"
+                },
+                {
+                    "url": "week05/prophetStretch.html",
+                    "title": "prophet Stretch"
                 },
                 {
                     "url": "week05/weather.html",
