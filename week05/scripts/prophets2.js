@@ -29,6 +29,7 @@ const displayLinks = (weeks) => {
         let portrait = document.createElement('img');
 
         // Build the h2 content out to show the prophet's full name
+
         first.textContent = `${weeks[0].links[0].title}`; // fill in the blank
         // birthdate.textContent = `Date of Birth: ${prophet.birthdate}`; // fill in the blank
         // birthplace.textContent = `Place of Birth: ${prophet.birthplace}`; // fill in the blank
