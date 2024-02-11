@@ -1,11 +1,36 @@
-const baseURL = "https://theonlyruneyouknow.github.io/wdd230/";
 
-const linksURL = "https://theonlyruneyouknow.github.io/wdd230/data/links.json";
+const linksURL = "//data/links.json";
 
-async function getLinks() {
-    const response = await fetch(linksURL);
-    const data = await response.json();
-    console.log(data);
+export function getData() {
+    let list = document.getElementById('list');
+    let img = document.getElementById('pic');
+    let header = document.querySelector('header');
+
+    fetch()
+        .then((Response) => {
+            if (!Response.ok) throw new Error('invalid');
+            return Response.json();
+        })
+        .then(dataArray => {
+            list.innerHTML = dataArray.map((item) => {
+                return `<ul id="list">
+    <p>first_name</p>
+    <p>last_name</p>
+</ul>`;
+            }).join('');
+        })
+        .catch(console.warn);
+
 }
 
-getLinks();
+
+
+
+// async function getLinks() {
+//     const response = await fetch(linksURL);
+//     const data = await response.json();
+//     console.log(data);
+// }
+
+// getLinks();
+

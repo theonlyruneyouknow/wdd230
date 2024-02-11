@@ -10,27 +10,37 @@ const cards = document.querySelector('#cards');
 // create an h2 element and store it in a variable named "fullName",
 
 
+// sonst urls = (weeks) =>
+const displayurls = (weeks) => {
+    weeks.forEach((householdMembers) => {
+
+        let urls = innerHTML
+    })
+}
+
 
 
 
 const displayLinks = (weeks) => {
     weeks.forEach((householdMembers) => {
         // Create elements to add to the div.cards element
-
-        let card = document.createElement('section');
+        let url =
+            let card = document.createElement('section');
 
         let familyName = document.createElement('h2'); // fill in the blank
-        let links = document.createElement('p'); // fill in the blank
+        let links = document.createElement('h2'); // fill in the blank
         let birthdate = document.createElement('p'); // fill in the blank
         let birthplace = document.createElement('p'); // fill in the blank
         let first = document.createElement('p'); // fill in the blank
+        let url = document.createElement('p'); // fill in the blank
 
 
         let portrait = document.createElement('img');
 
         // Build the h2 content out to show the prophet's full name
+        first.textContent = `${weeks[0].links[0].title}${weeks[0].links[0].title}`; // fill in the blank
 
-        first.textContent = `${weeks[0].links[0].title}`; // fill in the blank
+        url.textContent = `${weeks[0].links[0].url}`; // fill in the blank
         // birthdate.textContent = `Date of Birth: ${prophet.birthdate}`; // fill in the blank
         // birthplace.textContent = `Place of Birth: ${prophet.birthplace}`; // fill in the blank
         // // Build the image portrait by setting all the relevant attributes
@@ -42,6 +52,7 @@ const displayLinks = (weeks) => {
 
         // Append the section(card) with the created elements
         card.appendChild(first); //fill in the blank
+        card.appendChild(url); //fill in the blank
         card.appendChild(familyName); //fill in the blank
         card.appendChild(birthdate); //fill in the blank
         card.appendChild(birthplace); //fill in the blank
@@ -70,6 +81,10 @@ async function getLinksData() {
     const data = await response.json();
     console.table(data.weeks); // temporary testing of data retreival
     displayLinks(data.weeks);
+    // displayLinks((data) =>{
+    //     list.innerHTML = data.map(({}))
+
+    // });
 }
 
 
