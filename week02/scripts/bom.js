@@ -1,12 +1,12 @@
 const input = document.queryselector('#favchap');
-const input = document.queryselector('#button');
-const input = document.queryselector('#list');
+const button = document.queryselector('#button');
+const list = document.queryselector('#list');
 
 button.addEventListener('click',
     function () {
 
-        const deleteButton = 
-const li = document.createElement('li');
+        // const deleteButton = 
+        const li = document.createElement('li');
         document.createElement('button');
         deleteButton.textContent = '❌';
         li.append(deleteButton);
