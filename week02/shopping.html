@@ -20,7 +20,20 @@
 
 <body>
 
-    <h1>My shopping list</h1>
+    <!-- <h1>My shopping list</h1> -->
+    <header class="intro">
+
+        <img src="images/bookOfMormon.jpg" alt="Hardback Book of Mormon " width="75" height="100">
+        <span>Book Of Mormon</span>
+    </header>
+
+    <h1>📖 Book of Mormon - Top 10</h1>
+    <main>
+        <label for="favchap">Enter Book and Chapter: </label>
+        <input type="text" id="favchap" name="favchap" placeholder="Alma 5">
+        <button type="submit">Add Chapter</button>
+        <ul id="list"></ul>
+    </main>
 
     <div>
         <label for="item">Enter a new item:</label>
@@ -34,19 +47,33 @@
 
     <script>
         const list = document.querySelector('ul');
+        // const favchap = document.querySelector('ul');
         const input = document.querySelector('input');
+        const myChap = document.querySelector('myChap');
+
+        const favchap = document.querySelector('favchap');
+        const buttonAC = document.querySelector('buttonAC');
         const button = document.querySelector('button');
 
         button.addEventListener('click', () => {
             const myItem = input.value;
+            const myItemAC = input.value;
+            const myChapAC = favchap.value;
             input.value = '';
+            myChap.value = '';
+            favchap.value = '';
 
             const listItem = document.createElement('li');
             const listText = document.createElement('span');
+            const listItemAC = document.createElement('li');
+            const listTextAC = document.createElement('span');
             const listBtn = document.createElement('button');
+            const listBtnAC = document.createElement('buttonAC');
 
             const listModBtn = document.createElement('button');
 
+            listItem.appendChild(listText);
+            listText.textContent = myItem;
             listItem.appendChild(listText);
             listText.textContent = myItem;
             listItem.appendChild(listBtn);

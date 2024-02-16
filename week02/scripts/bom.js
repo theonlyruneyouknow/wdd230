@@ -1,31 +1,36 @@
-const input = document.queryselector('#favchap');
-const button = document.queryselector('#button');
-const list = document.queryselector('#list');
+const list = document.querySelector('#list');
+// const list = document.querySelector('ul');
 
-button.addEventListener('click',
-    function () {
+// const input = document.querySelector('input');
+const input = document.querySelector('#favchap');
 
-        // const deleteButton = 
-        const li = document.createElement('li');
-        document.createElement('button');
-        deleteButton.textContent = '❌';
-        li.append(deleteButton);
-        list.append(li);
-        li.textContent = input.value;
-        document.getElementById(favchap).innerHTML = sometext;
-	)
-}
-deleteButton.addEventListener('click', function () {
-    list.removeChild(li);
+const button = document.querySelector('button');
+
+button.addEventListener('click', () => {
+    const myItem = input.value;
+    input.value = '';
+
+    const li = document.createElement('li');
+    // const listItem = document.createElement('li');
+    const listText = document.createElement('span');
+    const deleteButton = document.createElement('button');
+    // const listBtn = document.createElement('button');
+
+    // listItem.appendChild(listText);
+    li.append(listText);
+    listText.textContent = myItem;
+    li.append(deleteButton);
+    // listItem.appendChild(listBtn);
+    deleteButton.textContent = '❌';
+    // listBtn.textContent = '❌';
+    // list.appendChild(listItem);
+    list.append(li);
+
+    deleteButton.addEventListener('click', function () {
+        // listBtn.addEventListener('click', () => {
+        list.removeChild(li);
+        // list.removeChild(listItem);
+    });
+
     input.focus();
 });
-
-input.focus();
-
-input.value = '';
-
-
-
-
-
-

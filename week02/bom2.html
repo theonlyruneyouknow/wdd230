@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping list example</title>
+    <style>
+        li {
+            margin-bottom: 10px;
+        }
+
+        li button {
+            font-size: 12px;
+            margin-left: 20px;
+            color: #666;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- <h1>My shopping list</h1> -->
+    <header class="intro">
+
+        <img src="images/bookOfMormon.jpg" alt="Hardback Book of Mormon " width="75" height="100">
+        <span>Book Of Mormon</span>
+    </header>
+
+    <h1>📖 Book of Mormon - Top 10</h1>
+    <main>
+        <div>
+            <label for="favchap">Enter Book and Chapter: </label>
+            <input type="text" id="favchap" name="favchap" placeholder="Alma 5">
+            <button type="submit">Add Chapter</button>
+            <ul id="list"></ul>
+
+
+            <!-- <label for="item">Enter a new item:</label>
+        <input type="text" name="item" id="item">
+        <button>Add item</button> -->
+        </div>
+    </main>
+    <ul>
+
+    </ul>
+
+    <script>
+        const list = document.querySelector('#list');
+        // const list = document.querySelector('ul');
+
+        // const input = document.querySelector('input');
+        const input = document.querySelector('#favchap');
+
+        const button = document.querySelector('button');
+
+        button.addEventListener('click', () => {
+            const myItem = input.value;
+            input.value = '';
+
+            const li = document.createElement('li');
+            // const listItem = document.createElement('li');
+            const listText = document.createElement('span');
+            const deleteButton = document.createElement('button');
+            // const listBtn = document.createElement('button');
+
+            // listItem.appendChild(listText);
+            li.append(listText);
+            listText.textContent = myItem;
+            li.append(deleteButton);
+            // listItem.appendChild(listBtn);
+            deleteButton.textContent = '❌';
+            // listBtn.textContent = '❌';
+            // list.appendChild(listItem);
+            list.append(li);
+
+            deleteButton.addEventListener('click', function () {
+                // listBtn.addEventListener('click', () => {
+                list.removeChild(li);
+                // list.removeChild(listItem);
+            });
+
+            input.focus();
+        });
+    </script>
+</body>
+
+</html>
