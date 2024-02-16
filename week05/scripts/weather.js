@@ -21,9 +21,6 @@ async function apiFetch() {
 
 function displayResults(data) {
     currentTemp.innerHTML = `${data.main.temp}&deg;F`;
-
-
-
     const iconsrc = `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
     let desc = data.weather[0].description;
     // let description = data.weather[0].description;
