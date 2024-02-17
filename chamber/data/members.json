@@ -1,5 +1,5 @@
 {
-    "prophets": [
+    "members": [
         {
             "Category": "Restaurant",
             "MapDot": 6,
@@ -14,7 +14,7 @@
             "MapDot": 21,
             "CompanyName": "Brave Bull",
             "Webpage": null,
-            "Adress": "9115 N. Willameet St.",
+            "Adress": "9115 N. Willamette St.",
             "Phone": 5413445077,
             "logo": "images/braveBull.png "
         },
