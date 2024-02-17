@@ -1,0 +1,301 @@
+{
+    "prophets": [
+        {
+            "Category": "Restaurant",
+            "MapDot": 6,
+            "CompanyName": "Blue Valley Bistro",
+            "Webpage": "bluevalletbistro.com/coburg",
+            "Adress": "91088 N. Willamette St, Ste1",
+            "Phone": 4582158153,
+            "logo": "images/blueValleyBistro.png "
+        },
+        {
+            "Category": "Restaurant",
+            "MapDot": 21,
+            "CompanyName": "Brave Bull",
+            "Webpage": null,
+            "Adress": "9115 N. Willameet St.",
+            "Phone": 5413445077,
+            "logo": "images/braveBull.png "
+        },
+        {
+            "Category": "Restaurant",
+            "MapDot": 5,
+            "CompanyName": "Chiefs Brew House",
+            "Webpage": "chiefsbrewhouse.com",
+            "Adress": "91108 N. Willamette St",
+            "Phone": 5413423828,
+            "logo": "images/chiefsBrewHouse.png "
+        },
+        {
+            "Category": "Restaurant",
+            "MapDot": 10,
+            "CompanyName": "Coburg Pizza Company",
+            "Webpage": "coburgpizza.com",
+            "Adress": "90999 S. Willamette St",
+            "Phone": 5414846600,
+            "logo": "images/coburgPizzaCompany.png "
+        },
+        {
+            "Category": "Restaurant",
+            "MapDot": 19,
+            "CompanyName": "Cobug Ice Cream",
+            "Webpage": null,
+            "Adress": "32671 E. McKenzie St.",
+            "Phone": 5419130838,
+            "logo": "images/coburgIceCream.png "
+        },
+        {
+            "Category": "Restaurant",
+            "MapDot": 29,
+            "CompanyName": "Dari Mart",
+            "Webpage": null,
+            "Adress": "91108 N. Willamette St.",
+            "Phone": 5413423828,
+            "logo": "images/dariMart.png "
+        },
+        {
+            "Category": "Restaurant",
+            "MapDot": 7,
+            "CompanyName": "Hayworth Estate Wines",
+            "Webpage": "hayworthestatewines.com",
+            "Adress": "91088 N. Willamette St.",
+            "Phone": 5415103318,
+            "logo": "images/hayworthWineBar.png "
+        },
+        {
+            "Category": "Restaurant",
+            "MapDot": null,
+            "CompanyName": "Nana's Cafe",
+            "Webpage": null,
+            "Adress": "90999 S. Willamette St",
+            "Phone": 5414846600,
+            "logo": "images/nanasCaffe.png "
+        },
+        {
+            "Category": "Shops",
+            "MapDot": 15,
+            "CompanyName": "Coburg Antique Malls",
+            "Webpage": "coburgantiquemall.com",
+            "Adress": "91055 S. Harrison St.",
+            "Phone": 5416830916,
+            "logo": "images/coburgAntiqueMalls.png "
+        },
+        {
+            "Category": "Shops",
+            "MapDot": 24,
+            "CompanyName": "Coburg Candy Company",
+            "Webpage": "coburgcandycompanyusa.com",
+            "Adress": "32670 E. Mill St.",
+            "Phone": 4582158399,
+            "logo": "images/coburgCandyCompany.png "
+        },
+        {
+            "Category": "Shops",
+            "MapDot": 23,
+            "CompanyName": "Design Works",
+            "Webpage": null,
+            "Adress": "32670 E. Mill St.",
+            "Phone": 5415105806,
+            "logo": "images/designWorks.png "
+        },
+        {
+            "Category": "Shops",
+            "MapDot": 20,
+            "CompanyName": "Farm Fancy",
+            "Webpage": null,
+            "Adress": "91109 N. Willamette St.",
+            "Phone": 5418523772,
+            "logo": "images/farmFancy.png "
+        },
+        {
+            "Category": "Shops",
+            "MapDot": 25,
+            "CompanyName": "Farm Kitchen Candle Co.",
+            "Webpage": "farmkitchentcandleco.com",
+            "Adress": "91118 Harrison St. #102",
+            "Phone": null,
+            "logo": "images/farmKitchenCandleCo.png "
+        },
+        {
+            "Category": "Shops",
+            "MapDot": 17,
+            "CompanyName": "Retro Revuvenation",
+            "Webpage": null,
+            "Adress": "32697 E. Pearl St.",
+            "Phone": 5419543011,
+            "logo": "images/retroRejuvination.png "
+        },
+        {
+            "Category": "Shops",
+            "MapDot": 11,
+            "CompanyName": "The Blingy Barn",
+            "Webpage": null,
+            "Adress": "91003 S. Willamette St.",
+            "Phone": 5303398711,
+            "logo": "images/theBlingyBarn.png "
+        },
+        {
+            "Category": "Shops",
+            "MapDot": 3,
+            "CompanyName": "The Old Shed",
+            "Webpage": "oldshed1917.com",
+            "Adress": "91124 N. Willamette St.",
+            "Phone": 5415215518,
+            "logo": "images/theOldShed.png "
+        },
+        {
+            "Category": "Shops",
+            "MapDot": 28,
+            "CompanyName": "Coburg Fit Club",
+            "Webpage": "coburgfit.com",
+            "Adress": "32663 E. Mill St., 2nd Floor",
+            "Phone": 5038604334,
+            "logo": "images/coburgFitClub.png "
+        },
+        {
+            "Category": "Shops",
+            "MapDot": 14,
+            "CompanyName": "Reflection Salon",
+            "Webpage": null,
+            "Adress": "91049 S. Willamette St,",
+            "Phone": 5414851961,
+            "logo": "images/reflectionsSalon.png "
+        },
+        {
+            "Category": "Shops",
+            "MapDot": 14,
+            "CompanyName": "Studio Luxe at Reflections",
+            "Webpage": "reflectionscoburg.com",
+            "Adress": "91049 S. Willamette St,",
+            "Phone": 5038609071,
+            "logo": " images/studioLuxeAtReflections.png"
+        },
+        {
+            "Category": "Shops",
+            "MapDot": 26,
+            "CompanyName": "Studio Seven",
+            "Webpage": "studiosevencoburg.com",
+            "Adress": "91118 N. Harrison St.",
+            "Phone": 5415705557,
+            "logo": "images/studioSeven.png "
+        },
+        {
+            "Category": "Shops",
+            "MapDot": 9,
+            "CompanyName": "Natural Life Chiropractic",
+            "Webpage": null,
+            "Adress": "90971 S. Willamette St.",
+            "Phone": 8336285433,
+            "logo": "images/naturalLifeChiropractic.png"
+        },
+        {
+            "Category": "City Services",
+            "MapDot": 2,
+            "CompanyName": "City of Coburg",
+            "Webpage": "coburgoregon.org",
+            "Adress": "91136 N. Willamette St.",
+            "Phone": 5416827860,
+            "logo": "images/coburg-bw-logo.jpg "
+        },
+        {
+            "Category": "City Services",
+            "MapDot": 2,
+            "CompanyName": "Police Department",
+            "Webpage": null,
+            "Adress": "91136 N. Willamette St.",
+            "Phone": 5416827853,
+            "logo": "images/coburgPolice.jpg "
+        },
+        {
+            "Category": "City Services",
+            "MapDot": 1,
+            "CompanyName": "Coburg Rural Fire District",
+            "Webpage": null,
+            "Adress": "91232 Coburg Rd.",
+            "Phone": 5416861573,
+            "logo": "images/CoburgFireRescue.jpg "
+        },
+        {
+            "Category": "Local Non-Profits",
+            "MapDot": null,
+            "CompanyName": "Coburg Commons",
+            "Webpage": null,
+            "Adress": "91193 N. Willamette St.",
+            "Phone": null,
+            "logo": "images/coburgCommons.png "
+        },
+        {
+            "Category": "Local Non-Profits",
+            "MapDot": null,
+            "CompanyName": "Coburg Community Charter School",
+            "Webpage": null,
+            "Adress": "91274 North Coburg Rd.",
+            "Phone": 5413444113,
+            "logo": "images/coburgCommunityCharterSchool.png "
+        },
+        {
+            "Category": "Local Non-Profits",
+            "MapDot": null,
+            "CompanyName": "Coburg Community Foundation",
+            "Webpage": null,
+            "Adress": "PO Box 8104 Coburg, OR, 97408",
+            "Phone": 4582151189,
+            "logo": "images/coburgCommunityFoundation.png "
+        },
+        {
+            "Category": "Local Non-Profits",
+            "MapDot": null,
+            "CompanyName": "Coburg Community Grange",
+            "Webpage": "coburgcommunitygrange.org",
+            "Adress": "32663 E. Mill St.",
+            "Phone": 5412288650,
+            "logo": "images/coburgCommunityGrange.png "
+        },
+        {
+            "Category": "Local Non-Profits",
+            "MapDot": null,
+            "CompanyName": "Coburg Food Pantry",
+            "Webpage": null,
+            "Adress": "32697 E. Pearl St.",
+            "Phone": null,
+            "logo": "images/coburgFoodPantry.png "
+        },
+        {
+            "Category": "Local Non-Profits",
+            "MapDot": null,
+            "CompanyName": "Coburg Main Street",
+            "Webpage": null,
+            "Adress": "PO Box 8275",
+            "Phone": 5419136570,
+            "logo": "images/MainStreetPNG.png "
+        },
+        {
+            "Category": "Local Non-Profits",
+            "MapDot": null,
+            "CompanyName": "IOOF Hall",
+            "Webpage": null,
+            "Adress": "91119 N. Willamette St.",
+            "Phone": 5416827860,
+            "logo": "images/ioofHall.png "
+        },
+        {
+            "Category": "Local Non-Profits",
+            "MapDot": 12,
+            "CompanyName": "Rural Develment Initiative (RDI)",
+            "Webpage": "rdiinc.org",
+            "Adress": "91017 S. Willamette St.",
+            "Phone": 4582158396,
+            "logo": "images/ruralDevelopmentInitiative.png "
+        },
+        {
+            "Category": "Local Non-Profits",
+            "MapDot": null,
+            "CompanyName": "Serenity Lane Residental Treatment",
+            "Webpage": null,
+            "Adress": "1 Serenity Lane, 91150 Coburg Industrial Way",
+            "Phone": 5416871110,
+            "logo": "images/serentityLaneResidentialTreatment.png "
+        }
+    ]
+}
