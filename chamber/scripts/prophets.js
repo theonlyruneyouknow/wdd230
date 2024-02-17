@@ -17,6 +17,8 @@ const displayProphets = (prophets) => {
         let Adress = document.createElement('p'); // fill in the blank
         let Phone = document.createElement('p'); // fill in the blank
         let logo = document.createElement('img');
+        let url = document.createElement('a');
+        // let url = document.createElement('a');
 
         // Build the h2 content out to show the prophet's full name
         CompanyName.textContent = `${prophet.CompanyName} `; // fill in the blank
@@ -26,16 +28,19 @@ const displayProphets = (prophets) => {
         // Build the image logo by setting all the relevant attributes
         logo.setAttribute('src', prophet.logo);
         logo.setAttribute('alt', `logo of ${prophet.CompanyName} `); // fill in the blank
+        logo.setAttribute('alt', `logo of ${prophet.CompanyName} `); // fill in the blank
+        url.setAttribute('href', `https://${prophet.Webpage}`);
         logo.setAttribute('loading', 'lazy');
         logo.setAttribute('width', '340');
-        logo.setAttribute('height', '440');
-
+        // logo.setAttribute('height', '440');
+        url.innerHTML = prophet.Webpage;
         // Append the section(card) with the created elements
-        card.appendChild(CompanyName); //fill in the blank
-        card.appendChild(Webpage); //fill in the blank
+        card.appendChild(logo);
+        card.appendChild(CompanyName);
+        card.appendChild(url); //fill in the blank
+        // card.appendChild(Webpage); //fill in the blank
         card.appendChild(Adress); //fill in the blank
         card.appendChild(Phone); //fill in the blank
-        card.appendChild(logo);
 
         cards.appendChild(card);
     }); // end of arrow function and forEach loop
