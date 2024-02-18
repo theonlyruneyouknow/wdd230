@@ -11,9 +11,8 @@
     <meta name="author" content="Rune Larsen WDD230-Winter 2024 Brigham Young University-Idaho">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="icon" href="images/favicon.ico">
-
-    <link rel="stylesheet" href="styles/hamburger.css">
     <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/hamburger.css">
     <link rel="stylesheet" href="styles/larger.css">
 
     <meta property="og:title" content="LDS Prophets">
@@ -30,8 +29,10 @@
     <header class="intro">
         <img src="images/RuneLarsenProfile.jpg" alt="Rune Larsen Profile" width="75" height="100">
         <span>Rune Larsen</span>
+        <div id="mode">🕶️</div>
     </header>
-    <a id="menu" href="#"></a>
+    <a id="menu" href="#" class></a>
+
 
     <nav>
         <ul class="navigation">
@@ -43,17 +44,15 @@
             <li><a href="form.html">Form</a></li>
             <!-- <li><a href="siteplan.html">Site Plan</a></li> -->
             <!-- <li><a href="./week04/form/index.html">Form</a></li> -->
-            <div id="mode">
-                🕶️
-            </div>
+
         </ul>
     </nav>
     <main>
         <div class="hero">
             <Picture>
-                <source srcset="./week03/images/hero-small.webp" media="(max-width= 400px) ">
-                <img src="images//willametteValleyTemple.webp" alt="Willamette Valley Temple" loading="lazy"
-                    decoding="async" width="960">
+                <source media="(max-width= 400px" srcset="images/willametteValleyTemple.webp">
+                <img src="images//willametteValleyTemple.webp" alt="Willamette Valley Temple" decoding="async"
+                    width="960" loading="lazy">
             </Picture>
             <span>Willamette Valley Temple</span>
         </div>
