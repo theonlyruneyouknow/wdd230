@@ -7,7 +7,7 @@
     <title>Rune Larsen - Coburg Exciting New Main Street Page</title>
     <meta name="description" content="This is Rune Larsen's Coburg Exciting New Main Street Page.">
     <meta name="author" content="Coburg Main Street">
-
+    <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="stylesheet" href="styles/p2.css">
 
@@ -17,26 +17,42 @@
 </head>
 
 <body>
-
-
-    <header>
-        <h1>Discover Coburg Events</h1>
+    <header class="intro">
+        <img src="images/MainStreetPNG.png" alt="Coburg Main Street Logo" width="200" height="189">
+        <span>Coburg Main Street</span>
     </header>
-    <main>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="discover.html">Discover</a></li>
+            <li><a href="coburgDirectory.html">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+            <!-- <li><a href="joiner.html">Joiner</a></li> -->
+            <!-- <li><a href="#">Community Corner</a></li>
+            <li><a href="#">Market Place</a></li> -->
+            <!-- <li><a href="chamber.html">Chamber</a></li>
+            <li><a href="siteplan.html">Site Plan</a></li>
+            <li><a href="form.html">Form</a></li> -->
+        </ul>
+
+        <header>
+            <h1>Discover Coburg Events</h1>
+        </header>
+        <main>
 
 
-        <div class="grid" id="cards"></div>
+            <div class="grid" id="cards"></div>
 
 
 
-    </main>
+        </main>
 
-    <footer>
-        Rune Larsen | Discover Coburg Events
-    </footer>
+        <footer>
+            Rune Larsen | Discover Coburg Events
+        </footer>
 
 
-    <script src="scripts/discover.js"></script>
+        <script src="scripts/discover.js"></script>
 </body>
 
 </html>
