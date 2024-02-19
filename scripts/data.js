@@ -12,8 +12,7 @@ const getData = async () => {
 const displayUsers = async () => {
   const payload = await getData();
 
-  let dataDisplay = payload
-    .map((object) => {
+  let dataDisplay = payload.map((object) => {
       const { url, title } = object.weekss;
 
       return `
