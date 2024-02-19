@@ -14,7 +14,7 @@ const displayUsers = async () => {
 
   let dataDisplay = payload
     .map((object) => {
-      const { url, title } = object;
+      const { url, title } = object.weekss;
 
       return `
   <div class="container">
