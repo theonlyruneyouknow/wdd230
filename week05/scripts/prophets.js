@@ -34,7 +34,7 @@ const displayProphets = (prophets) => {
         card.appendChild(birthplace); //fill in the blank
         card.appendChild(portrait);
 
-        cards.appendChild(card);
+        // cards.appendChild(card);
     }); // end of arrow function and forEach loop
 }
 
