@@ -56,7 +56,7 @@ const displaymembers = (members) => {
         card.appendChild(url); //fill in the blank
         card.appendChild(Blurb); //fill in the blank
 
-        cards.appendChild(card);
+        cards2.appendChild(card);
     }); // end of arrow function and forEach loop
 }
 

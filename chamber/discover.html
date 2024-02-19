@@ -7,22 +7,26 @@
     <title>Rune Larsen - Coburg Exciting New Main Street Page</title>
     <meta name="description" content="This is Rune Larsen's Coburg Exciting New Main Street Page.">
     <meta name="author" content="Coburg Main Street">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/hamburger.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="stylesheet" href="styles/p2.css">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
 </head>
+
 
 <body>
     <header class="intro">
         <img src="images/MainStreetPNG.png" alt="Coburg Main Street Logo" width="200" height="189">
         <span>Coburg Main Street</span>
     </header>
+    <a id="menu" href="#" class></a>
     <nav>
-        <ul>
+        <ul class="navigation">
             <li><a href="index.html">Home</a></li>
             <li class="active"><a href="discover.html">Discover</a></li>
             <li><a href="directory.html">Directory</a></li>
@@ -41,7 +45,7 @@
         <main>
 
 
-            <div class="grid" id="cards"></div>
+            <div class="grid" id="cards2"></div>
 
 
 
@@ -52,6 +56,7 @@
         </footer>
 
 
+        <script src="scripts/hamburger.js"></script>
         <script src="scripts/discover.js"></script>
 </body>
 

@@ -59,6 +59,18 @@ nav {
     background-color: rgb(5, 84, 3);
 }
 
+.figcaption {
+    background-color: rgb(5, 84, 3);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+img #figcaption {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
 
 .parent {
     margin: 1rem 2vw;
@@ -69,7 +81,7 @@ nav {
     background-color: rgb(5, 84, 3);
     border-radius: 10px;
     overflow: hidden;
-    margin: 1rem 0;
+    margin: 1rem 0 0 0;
     padding: 10px;
     display: flex;
     align-items: center;

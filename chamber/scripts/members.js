@@ -42,7 +42,7 @@ const displaymembers = (members) => {
         card.appendChild(Adress); //fill in the blank
         card.appendChild(Phone); //fill in the blank
 
-        cards.appendChild(card);
+        cards2.appendChild(card);
     }); // end of arrow function and forEach loop
 }
 
