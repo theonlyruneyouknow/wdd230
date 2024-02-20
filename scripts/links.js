@@ -1,6 +1,6 @@
 const baseURL = "https://grdavie.github.io/wdd230/";
 const linksURL = "https://grdavie.github.io/wdd230/data/links.json";
-const linkCard = document.querySelector('#links');
+const linkCard = document.querySelector('#URLlist');
 
 async function getLinks () {
 
