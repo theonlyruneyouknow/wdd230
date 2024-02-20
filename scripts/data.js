@@ -5,16 +5,16 @@ const getData = async () => {
   const res = await fetch(apiEndpoint);
   const data = await res.json();
   console.log(data);
-  displayUsers();
+  displayLinks();
   return data
 };
 
-const displayUsers = async () => {
+const displayLinks = async () => {
   const payload = await getData();
   // const payload2 = JSON.parse(payload);
-  let dataDisplay = payload2.map((weeks) => {
+  let dataDisplay = payload.map((weeks) => {
     // console.log(weeks);
-    const { url, title } = object;
+    // const { url, title } = object;
 
     //   return `
     // <div class="container">
