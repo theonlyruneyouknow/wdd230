@@ -11,7 +11,7 @@ const getData = async () => {
 
 const displayUsers = async () => {
   const payload = await getData();
-  const payload2 = JSON.parse(payload);
+  // const payload2 = JSON.parse(payload);
   let dataDisplay = payload2.map((weeks) => {
     // console.log(weeks);
     const { url, title } = object;
