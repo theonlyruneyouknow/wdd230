@@ -23,16 +23,20 @@ async function apiFetch() {
 }
 
 function displayResults(data) {
-    currentTemp.innerHTML = `${data.member[0].householdMembers.length}&deg;F`;
-    currentTemp2.innerHTML = `${data.member[0].familyName}&deg;F`;
-    currentTemp3.innerHTML = `${data.member[0].householdMembers[0].name}&deg;F`;
-    // description.innerHTML = `${data.weather[0].description}`;
+    const displayProphets = (prophets) => {
+        prophets.forEach((prophet) => {
 
-    const iconsrc = `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
-    let desc = data.weather[0].description;
-    figcaption.setAttribute('SRC', iconsrc);
-    figcaption.setAttribute('alt', data.weather[0].description);
-    captionDesc.textContent = `${desc}`;
+            currentTemp.innerHTML = `${data.prophet[0].householdMembers.length}&deg;F`;
+            // currentTemp2.innerHTML = `${data.member[0].familyName}&deg;F`;
+            // currentTemp3.innerHTML = `${data.member[0].householdMembers[0].name}&deg;F`;
+            // description.innerHTML = `${data.weather[0].description}`;
+        }
+            // const iconsrc = `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
+            // let desc = data.weather[0].description;
+            // figcaption.setAttribute('SRC', iconsrc);
+            // figcaption.setAttribute('alt', data.weather[0].description);
+            // captionDesc.textContent = `${desc}`;
+        )
+    }
 }
-
 apiFetch();

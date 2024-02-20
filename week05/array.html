@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <h2>JavaScript Arrays</h2>
+
+    <p>Compute a new array with the full name of each person in the old array:</p>
+
+    <p id="demo"></p>
+
+    <script>
+        const persons2 = [
+            { firstname: "Malcom", lastname: "Reynolds" },
+            { firstname: "Kaylee", lastname: "Frye" },
+            { firstname: "Jayne", lastname: "Cobb" }
+        ];
+
+        const persons = [
+            {
+                "weeks": [
+                    {
+                        "week": "Week 1",
+                        "links": [
+                            {
+                                "url": "week01/holygrail.html",
+                                "title": "HG Layout"
+                            },
+                            {
+                                "url": "week01/media-query.html",
+                                "title": "mQueries"
+                            },
+                            {
+                                "url": "week01/appliedJS.html",
+                                "title": "JSPen"
+                            }
+                        ]
+                    },
+                    {
+                        "week": "Week 2",
+                        "links": [
+                            {
+                                "url": "week02/design.html",
+                                "title": "Design"
+                            },
+                            {
+                                "url": "week02/media-query.html",
+                                "title": "Hamburger Menu"
+                            },
+                            {
+                                "url": "https://codepen.io/theonlyruneyouknow/pen/PoLpxRK",
+                                "title": "CodePen"
+                            },
+                            {
+                                "url": "week02/bom.html",
+                                "title": "Book of Mormon 3"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+        document.getElementById("demo").innerHTML = persons.map(getFullName);
+
+        function getFullName(weeks) {
+            return [weeks.week.links[0]].join(" ");
+        }
+    </script>
+
+</body>
+
+</html>
+
+<!-- , item.links[0].url -->

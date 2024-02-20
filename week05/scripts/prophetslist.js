@@ -29,12 +29,12 @@ const displayProphets = (prophets) => {
         portrait.setAttribute('height', '440');
 
         // Append the section(card) with the created elements
-        card.appendChild(fullName); //fill in the blank
-        card.appendChild(birthdate); //fill in the blank
-        card.appendChild(birthplace); //fill in the blank
-        card.appendChild(portrait);
+        // card.appendChild(fullName); //fill in the blank
+        // card.appendChild(birthdate); //fill in the blank
+        // card.appendChild(birthplace); //fill in the blank
+        // card.appendChild(portrait);
 
-        cards.appendChild(card);
+        // cards.appendChild(card);
     }); // end of arrow function and forEach loop
 }
 
