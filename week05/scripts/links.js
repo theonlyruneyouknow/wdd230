@@ -1,12 +1,55 @@
-async function start() {
-    const URLlist = await fetch("data/links.json");
-    const data = await URLlist.json()
-    console.log(data)
-    title = createURLlist(data.weeks[0].links[0].title);
-    return title;
-}
 
-start()
+const baseURL = "https://theonlyruneyouknow.github.io/wdd230/";
+
+const linksURL = "https://theonlyruneyouknow.github.io/wdd230/data/links.json";
+let ulist = document.querySelector("#urlList");
+
+async function getLinks() {
+        const response = await fetch(linksURL);
+        const data = await response.json();
+        console.log(data.weeks);
+        displayLinks(data);
+      }
+
+      
+      getLinks();
+
+      const displayLinks = (weeks) => {
+        weeks.forEach((week) => {
+            let li = document.createElement('li');
+            let weeknum = document.createElement('span');
+            weeknum.textContent = `${week.week}`
+
+     }   
+     )
+    
+    }
+
+
+
+
+
+// async function start() {
+//     const URLlist = await fetch("data/links.json");
+//     const data = await URLlist.json()
+//     console.log(data)
+//     title = createURLlist(data.weeks[0].links[0].title);
+//     return title;
+// }
+
+// async function getLinks() {
+//     const response = await fetch(linksURL);
+//     const data = await response.json();
+//     displayLinks(data);
+//   }
+
+//   async function getLinks() {
+//     const response = await fetch(linksURL);
+//     const data = await response.json();
+//     displayLinks(data);
+//   }
+
+// start()
 
 
 // function createURLlist(URLlist) {
