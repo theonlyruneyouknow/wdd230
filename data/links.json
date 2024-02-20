@@ -5,15 +5,18 @@
             "links": [
                 {
                     "url": "week01/holygrail.html",
-                    "title": "HG Layout"
+                    "title": "HG Layout",
+                    "isInternal":"True"
                 },
                 {
                     "url": "week01/media-query.html",
-                    "title": "mQueries"
+                    "title": "mQueries",
+                    "isInternal":"True"
                 },
                 {
                     "url": "week01/appliedJS.html",
-                    "title": "JSPen"
+                    "title": "JSPen",
+                    "isInternal":"True"
                 }
             ]
         },
@@ -22,19 +25,23 @@
             "links": [
                 {
                     "url": "week02/design.html",
-                    "title": "Design"
+                    "title": "Design",
+                    "isInternal":"True"
                 },
                 {
                     "url": "week02/media-query.html",
-                    "title": "Hamburger Menu"
+                    "title": "Hamburger Menu",
+                    "isInternal":"True"
                 },
                 {
                     "url": "https://codepen.io/theonlyruneyouknow/pen/PoLpxRK",
-                    "title": "CodePen"
+                    "title": "CodePen",
+                    "isInternal":"False"
                 },
                 {
                     "url": "week02/bom.html",
-                    "title": "Book of Mormon 3"
+                    "title": "Book of Mormon 3",
+                    "isInternal":"True"
                 }
             ]
         },
@@ -43,19 +50,23 @@
             "links": [
                 {
                     "url": "week03/images/landscape.webp",
-                    "title": "WebP"
+                    "title": "WebP",
+                    "isInternal":"True"
                 },
                 {
                     "url": "week03/hamburger.html",
-                    "title": "Hamburger"
+                    "title": "Hamburger",
+                    "isInternal":"True"
                 },
                 {
                     "url": "week03/lazyload.html",
-                    "title": "Lazy Loading"
+                    "title": "Lazy Loading",
+                    "isInternal":"True"
                 },
                 {
                     "url": "week02/media-query.html",
-                    "title": "Responsive Images"
+                    "title": "Responsive Images",
+                    "isInternal":"True"
                 }
             ]
         },
@@ -64,19 +75,23 @@
             "links": [
                 {
                     "url": "https://codepen.io/theonlyruneyouknow/pen/zYbpOMG",
-                    "title": "CodePen Psudo Classes"
+                    "title": "CodePen Psudo Classes",
+                    "isInternal":"False"
                 },
                 {
                     "url": "week04/images/combinatorExercises.PNG",
-                    "title": "Combinator Exercises"
+                    "title": "Combinator Exercises",
+                    "isInternal":"True"
                 },
                 {
                     "url": "week04/tablebuild.html",
-                    "title": "Tablebuild HTML"
+                    "title": "Tablebuild HTML",
+                    "isInternal":"True"
                 },
                 {
                     "url": "week04/bom.html",
-                    "title": "Book of Mormon"
+                    "title": "Book of Mormon",
+                    "isInternal":"True"
                 }
             ]
         },
@@ -85,23 +100,28 @@
             "links": [
                 {
                     "url": "https://codepen.io/theonlyruneyouknow/pen/dyrevpV",
-                    "title": "CodePen Psudo Elements"
+                    "title": "CodePen Psudo Elements",
+                    "isInternal":"False"
                 },
                 {
                     "url": "week05/new-ward-members.json",
-                    "title": "JSON"
+                    "title": "JSON",
+                    "isInternal":"True"
                 },
                 {
                     "url": "week05/prophets.html",
-                    "title": "Prophets"
+                    "title": "Prophets",
+                    "isInternal":"True"
                 },
                 {
                     "url": "week05/prophetStretch.html",
-                    "title": "prophet Stretch"
+                    "title": "prophet Stretch",
+                    "isInternal":"True"
                 },
                 {
                     "url": "week05/weather.html",
-                    "title": "Weather"
+                    "title": "Weather",
+                    "isInternal":"True"
                 }
             ]
         }
