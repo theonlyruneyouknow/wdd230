@@ -30,7 +30,7 @@ function displayLinks (weeks){
         let weekTitle = document.createElement('span');
 
         //build li content
-        weekTitle.textContent = `${week.week}: `;
+        weekTitle.textContent = `${weeks.week}: `;
 
         li.appendChild(weekTitle);
 
