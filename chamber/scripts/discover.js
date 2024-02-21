@@ -55,6 +55,7 @@ const displaymembers = (members) => {
         card.appendChild(Location); //fill in the blank
         card.appendChild(url); //fill in the blank
         card.appendChild(Blurb); //fill in the blank
+        Blurb.setAttribute('class', 'Blurb');
 
         cards2.appendChild(card);
     }); // end of arrow function and forEach loop

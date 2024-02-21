@@ -150,6 +150,32 @@ nav {
     grid-template-columns: 1fr;
 }
 
+.urlitems {
+    font-weight: 400;
+    /* text-align: center; */
+    text-transform: capitalize;
+    font-size: 2rem;
+    background-color: #e7fae7;
+    /* text-align: center; */
+    /* padding: 10px; */
+    /* display: block; */
+    display: inline-flex;
+    grid-template-columns: 1fr;
+
+}
+
+.bar .urlitems {
+    font-weight: 400;
+    /* text-align: center; */
+    text-transform: capitalize;
+    font-size: 1rem;
+    background-color: #e7fae7;
+    /* text-align: center; */
+    /* padding: 10px; */
+    /* display: block; */
+    display: grid;
+    grid-template-columns: 1fr;
+}
 
 
 .parent section {
@@ -175,6 +201,11 @@ nav {
 
 h1 {
     font-size: 2rem;
+}
+
+h2 {
+    background-color: seagreen;
+    text-align: center;
 }
 
 nav {
