@@ -177,7 +177,6 @@ nav {
     grid-template-columns: 1fr;
 }
 
-
 .parent section {
     border: 1px solid #415541;
     background-color: white;
@@ -192,6 +191,11 @@ nav {
     display: block;
     text-align: center;
     padding: .75rem 0;
+}
+
+.event span {
+    display: block-inline;
+    background-color: #eee;
 }
 
 .parent p {
