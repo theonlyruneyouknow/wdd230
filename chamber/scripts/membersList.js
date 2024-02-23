@@ -18,6 +18,7 @@ const displaymembers = (members) => {
         let Phone = document.createElement('p'); // fill in the blank
         let logo = document.createElement('img');
         let url = document.createElement('a');
+        let li = document.createElement('li');
         // let url = document.createElement('a');
 
         // Build the h2 content out to show the Member's full name
@@ -44,8 +45,48 @@ const displaymembers = (members) => {
 
         cards2.appendChild(card);
 
+        // list1.appendChild
     }); // end of arrow function and forEach loop
 }
+
+
+function buildtable(Member) {
+    var table = document.getElementById('myTable')
+    for (var i = 0; i < Member.length; i++) {
+        var row = `<tr>
+    <td>${Member[i].Category}</td>
+    <td>${Member[i].CompanyName}</td>
+    <td>${Member[i].Adress}</td>
+    </tr>`
+        table.innerHTML += row
+    }
+}
+
+
+// const displaymembers = (members) => {
+//     members.forEach((Member) => {
+// Create elements to add to the div.cards element
+
+// let card = document.createElement('section');
+// let CompanyName = document.createElement('h2'); // fill in the blank
+// let Webpage = document.createElement('p'); // fill in the blank
+// let Adress = document.createElement('p'); // fill in the blank
+// let Phone = document.createElement('p'); // fill in the blank
+// let logo = document.createElement('img');
+// let url = document.createElement('a');
+// let li = document.createElement('li');
+// let url = document.createElement('a');
+
+// Build the h2 content out to show the Member's full name
+// CompanyName.textContent = `${Member.CompanyName} `; // fill in the blank
+// Webpage.textContent = `Webpage: ${Member.Webpage}`; // fill in the blank
+// Adress.textContent = `Adress: ${Member.Adress}`; // fill in the blank
+// Phone.textContent = `Phone: ${Member.Phone}`; // fill in the blank
+// Build the image logo by setting all the relevant attributes
+
+//     }); // end of arrow function and forEach loop
+// }
+// }
 //Layout View
 //use membersCards instead of display
 
@@ -80,8 +121,11 @@ const displaymembers = (members) => {
 async function getMemberData() {
     const response = await fetch(url);
     const data = await response.json();
-    console.table(data.members); // temporary testing of data retreival
+    console.table(data.members);
+    // temporary testing of data retreival
+
     displaymembers(data.members);
+    buildtable(data.members);
 }
 
 

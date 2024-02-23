@@ -72,6 +72,14 @@ img #figcaption {
     display: flex;
 }
 
+button #gridBtn {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+    max-width: 25px;
+}
+
 .parent {
     margin: 1rem 2vw;
 }
