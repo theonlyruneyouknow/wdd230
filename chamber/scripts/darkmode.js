@@ -20,7 +20,8 @@ modeButton.addEventListener("click", () => {
 });
 
 function myFunction() {
-    var x = document.getElementById("myTable");
+    var x = document.getElementById("cards2");
+    // var x = document.getElementById("myTable");
     if (x.style.display === "none") {
       x.style.display = "block";
     } else {
