@@ -194,7 +194,7 @@ nav {
 }
 
 .event span {
-    display: block-inline;
+    display: inline-block;
     background-color: #eee;
 }
 
