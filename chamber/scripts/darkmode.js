@@ -21,10 +21,12 @@ modeButton.addEventListener("click", () => {
 
 function myFunction() {
     var x = document.getElementById("cards2");
-    // var x = document.getElementById("myTable");
+    var Y = document.getElementById("myTable");
     if (x.style.display === "none") {
-      x.style.display = "block";
+        x.style.display = "block";
+        Y.style.display = "block";
     } else {
-      x.style.display = "none";
+        x.style.display = "none";
+        Y.style.display = "none";
     }
   }
